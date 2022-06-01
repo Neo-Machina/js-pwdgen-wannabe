@@ -19,4 +19,4 @@ const userPassword = userName + userLastname + userFavoriteColor + '21';
 
 // 3- OUTPUT PER L'UTENTE
 // Stampo in pagina
-document.getElementById('password').innerHTML = userPassword;
+document.getElementById('password').innerHTML = 'La tua passward è ' + userPassword;

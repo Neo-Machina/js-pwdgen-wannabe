@@ -14,7 +14,7 @@ const userFavoriteColor =prompt ('Dimmi il tuo colore preferito');
 
 // 2- LOGICA DELLA MIA APPLICAZIONE
 // Costruisco il messaggio finale per l'utente
-const userPassword = userName + userLastname + userFavoriteColor + 21;
+const userPassword = userName + userLastname + userFavoriteColor + '21';
 // console.log(userPassword);
 
 // 3- OUTPUT PER L'UTENTE
